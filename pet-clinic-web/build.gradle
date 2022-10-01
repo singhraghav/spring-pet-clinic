@@ -1,0 +1,9 @@
+dependencies {
+    implementation "org.springframework.boot:spring-boot-starter-actuator:$springBootVersion"
+    implementation "org.springframework.boot:spring-boot-starter-thymeleaf:$springBootVersion"
+    implementation "org.springframework.boot:spring-boot-starter-web:$springBootVersion"
+    implementation "javax.xml.bind:jaxb-api:2.3.0"
+    implementation project(':pet-clinic-data')
+
+    testImplementation "org.springframework.boot:spring-boot-starter-test:$springBootVersion"
+}
